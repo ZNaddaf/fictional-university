@@ -1,2 +1,22 @@
 [10-Feb-2021 19:59:54 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/index.php on line 3
 [10-Feb-2021 19:59:55 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/index.php on line 3
+[16-Feb-2021 17:16:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php on line 19 and exactly 1 expected in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-includes/post.php:7214
+Stack trace:
+#0 /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php(19): wp_get_post_parent_id()
+#1 /Users/znaddaf/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/znaddaf/...')
+#2 /Users/znaddaf/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/znaddaf/...')
+#3 /Users/znaddaf/Local Sites/fictional-university/app/public/index.php(17): require('/Users/znaddaf/...')
+#4 {main}
+  thrown in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7214
+[16-Feb-2021 17:17:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php on line 19 and exactly 1 expected in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-includes/post.php:7214
+Stack trace:
+#0 /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php(19): wp_get_post_parent_id()
+#1 /Users/znaddaf/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/znaddaf/...')
+#2 /Users/znaddaf/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/znaddaf/...')
+#3 /Users/znaddaf/Local Sites/fictional-university/app/public/index.php(17): require('/Users/znaddaf/...')
+#4 {main}
+  thrown in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7214
+[16-Feb-2021 17:19:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php on line 21
+[16-Feb-2021 18:09:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php on line 30
+[16-Feb-2021 18:10:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php on line 30
+[16-Feb-2021 18:13:22 UTC] PHP Parse error:  syntax error, unexpected ''sort_column'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/znaddaf/Local Sites/fictional-university/app/public/wp-content/themes/ficitonal-university-theme/page.php on line 47
